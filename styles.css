@@ -1,0 +1,110 @@
+:root {
+    --Cinza-claro: #E4E4E4;
+    --preto: #000000;
+    --preto-claro: #222222; 
+    --Azul-titulos: #4E4FEB;
+    --fonte: 'Comming Soon', cursive;
+    --fonte-titulo: 'Anta', sans-serif;
+}
+
+strong {
+    color: var(--Azul-titulos);
+}
+
+.logotipo-portfolio {
+    width: 200px;
+    height: 100px;
+}
+
+.bg-preto {
+    background-color: var(--preto-claro);
+    font-family: var(--fonte);
+}
+
+.bg-azul {
+    background-color: var(--Azul-titulos);
+}
+
+.bg-cinza {
+    background-color: var(--Cinza-claro);
+}
+
+.cinza-claro {
+    color: var(--Cinza-claro);
+}
+
+.btn-padrao {
+    color: var(--Cinza-claro);
+    font-family: var(--fonte);
+}
+
+.banner1 {
+    background-image: url(./Assets/banner-1.jpg);
+}
+
+.banner2 {
+    background-image: url(./Assets/banner2.jpg);
+}
+
+.banner3 {
+    background-image: url(./Assets/banner3.jpg);
+}
+
+.banner {
+    width: 100%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+.banner-texto {
+    --bs-bg-opacity: 0
+}
+
+
+.banner-titulo {
+    color: var(--Azul-titulos);
+    font-family: var(--fonte-titulo);
+}
+
+.imagem-banner {
+    width: 100%;
+    height: 75vh;
+}
+
+.icone-medio:hover {
+    color: var(--Azul-titulos);
+}
+
+.modal_titulo {
+    font-family: var(--fonte-titulo);
+}
+
+@media (min-width: 576px) {
+    .carrossel_imagem {
+        width: 100%;
+        height: 35vh;
+    }
+}
+
+@media (min-width: 768px) {
+    .carrossel_imagem {
+        width: 100%;
+        height: 50vh;
+    }
+
+    .icone-medio {
+        width: 75px;
+        height: 75px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .carrossel_imagem {
+        width: 100%;
+        height: 75vh;
+    }
+}

@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./" type="image/x-icon">
+    <link rel="shortcut icon" href="./Assets/IconePortfolioTitulo.png" type="image/x-icon">
+    <title>Portfolio Otavio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body class="bg-preto">
+    <!-- Cabeçalho Navbar -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img class="logotipo-portfolio"
+                        src="./Assets/Logotipo-portfolio-preto-removebg-preview.png"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+
+                <div class=" justify-content-lg-end collapse navbar-collapse me-auto" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item mx-2">
+                            <a class="nav-link fs-4" href="#" data-bs-toggle="modal"
+                                data-bs-target="#Modal_SobreMim">Sobre mim</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link fs-4" href="#contato">Contato</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link fs-4" href="#minhas-redes">Minhas redes</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Seção: Banner 1 -->
+        <section class="banner banner1 d-flex text-center px-5">
+            <div class="banner-texto">
+                <h1 class="banner-titulo fs-1 fw-bold py-3 py-md-5">Olá, sou Otávio Soares...</h1>
+                <p class="text-bg-dark fs-4">Este é meu portfolio 2.0, onde reúno e compartilho meu trabalho e
+                    minha jornada na busca pelo
+                    conhecimento e excelência na área de programação. Explore meus projetos e entre em contato para
+                    colaborações ou
+                    oportunidades de trabalho, estou
+                    pronto para novos desafios!</p>
+            </div>
+        </section>
+
+        <!-- Seção: Meus projetos -->
+        <section class="container">
+            <div class="banner-texto py-3 text-center">
+                <h2 class="banner-titulo fw-bold fs-1 py-5">Meus projetos</h2>
+                <p class="text-bg-dark fs-1 fw-bold">Front-end</p>
+            </div>
+
+            <!-- carrossel front-end -->
+            <div id="carrossel_front_end" class="carousel slide borda">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carrossel_front_end" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carrossel_front_end" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carrossel_front_end" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carrossel_front_end" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carrossel_front_end" data-bs-slide-to="4"
+                        aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carrossel_front_end" data-bs-slide-to="5"
+                        aria-label="Slide 6"></button>
+                    <button type="button" data-bs-target="#carrossel_front_end" data-bs-slide-to="6"
+                        aria-label="Slide 7"></button>
+                    <button type="button" data-bs-target="#carrossel_front_end" data-bs-slide-to="7"
+                        aria-label="Slide 8"></button>
+                    <button type="button" data-bs-target="#carrossel_front_end" data-bs-slide-to="8"
+                        aria-label="Slide 9"></button>
+                </div>
+
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                        <img src="./Assets/Carrossel_front/Projeto_TopayRh.png" class="d-block w-100 carrossel_imagem"
+                            alt="...">
+                        <div class="carousel-caption d-none d-md-block bg-preto rounded-5 px-3">
+                            <h5 class="banner-titulo fs-2">TopayRh</h5>
+                            <p class="fs-4">Site protótipo de gerencimaneto de RH.</p>
+                            <p class="fs-4">Tecnologias usadas: <strong>HTML</strong>, <strong>CSS</strong> e
+                                <strong>JavaScript</strong>.Siga
+                                as intruções do
+                                arquivo README no github do projeto.
+                            </p>
+                            <div class="d-flex justify-content-between d-block">
+                                <button type="button" class="btn btn-primary bg-azul"><a
+                                        class="text-decoration-none btn-padrao fs-4 rounded-3 fw-bold"
+                                        href="https://topay-rh-web-1-0.vercel.app/">Website</a>
+                                </button>
+                                <button type="button" class="btn btn-primary bg-azul"><a
+                                        class="text-decoration-none btn-padrao fs-4 rounded-3 fw-bold"
+                                        href="https://github.com/Otaviosoaresf/TopayRH-Web-1.0"> GitHub </a>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="carousel-caption d-block d-md-none banner-texto rounded-5">
+                            <button type="button" class="btn btn-primary bg-azul btn-sm"><a
+                                    class="text-decoration-none btn-padrao fs-6 rounded-3 fw-bold"
+                                    href="https://topay-rh-web-1-0.vercel.app/">Website</a>
+                            </button>
+                            <button type="button" class="btn btn-primary bg-azul btn-sm"><a
+                                    class="text-decoration-none btn-padrao fs-6 rounded-3 fw-bold"
+                                    href="https://github.com/Otaviosoaresf/TopayRH-Web-1.0"> GitHub </a>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="./Assets/Carrossel_front/Projeto_meteora.png" class="d-block w-100 carrossel_imagem"
+                            alt="...">
+                        <div class="carousel-caption d-none d-md-block bg-preto rounded-5 px-3">
+                            <h5 class="banner-titulo fs-2">Meteora</h5>
+                            <p class="fs-4">Site de uma loja de roupas fictícia.</p>
+                            <p class="fs-4">Tecnologias usadas: <strong>HTML</strong>, <strong>CSS</strong> e
+                                <strong>Bootstrap</strong>
+                            </p>
+                            <div class="d-flex justify-content-between d-block">
+                                <button type="button" class="btn btn-primary bg-azul"><a
+                                        class="text-decoration-none btn-padrao fs-4 rounded-3 fw-bold"
+                                        href="https://projeto-meteora-beta.vercel.app/">Website</a>
+                                </button>
+                                <button type="button" class="btn btn-primary bg-azul"><a
+                                        class="text-decoration-none btn-padrao fs-4 rounded-3 fw-bold"
+                                        href="https://github.com/Otaviosoaresf/ProjetoMeteora"> GitHub </a>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="carousel-caption d-block d-md-none banner-texto rounded-5">
+                            <button type="button" class="btn btn-primary bg-azul btn-sm"><a
+                                    class="text-decoration-none btn-padrao fs-6 rounded-3 fw-bold"
+                                    href="https://projeto-meteora-beta.vercel.app/">Website</a>
+                            </button>
+                            <button type="button" class="btn btn-primary bg-azul btn-sm"><a
+                                    class="text-decoration-none btn-padrao fs-6 rounded-3 fw-bold"
+                                    href="https://github.com/Otaviosoaresf/ProjetoMeteora"> GitHub </a>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./Assets/Carrossel_front/Projeto_serenatto.png" class="d-block w-100 carrossel_imagem"
+                            alt="...">
+                        <div class="carousel-caption d-none d-md-block bg-preto rounded-5 px-3">
+                            <h5 class="banner-titulo fs-2">Café Serenatto</h5>
+                            <p class="fs-4">Site de uma cafeteria fictífcia</p>
+                            <p class="fs-4">Tecnologias usadas: <strong>HTML</strong>, <strong>CSS</strong> e
+                                <strong>Bootstrap</strong>
+                            </p>
+                            <div class="d-flex justify-content-between d-block">
+                                <button type="button" class="btn btn-primary bg-azul"><a
+                                        class="text-decoration-none btn-padrao fs-4 rounded-3 fw-bold"
+                                        href="https://cafeteria-serenatto-psi.vercel.app/">Website</a>
+                                </button>
+                                <button type="button" class="btn btn-primary bg-azul"><a
+                                        class="text-decoration-none btn-padrao fs-4 rounded-3 fw-bold"
+                                        href="https://github.com/Otaviosoaresf/CafeteriaSerenatto"> GitHub </a>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="carousel-caption d-block d-md-none banner-texto rounded-5">
+                            <button type="button" class="btn btn-primary bg-azul btn-sm"><a
+                                    class="text-decoration-none btn-padrao fs-6 rounded-3 fw-bold"
+                                    href="https://cafeteria-serenatto-psi.vercel.app/">Website</a>
+                            </button>
+                            <button type="button" class="btn btn-primary bg-azul btn-sm"><a
+                                    class="text-decoration-none btn-padrao fs-6 rounded-3 fw-bold"
+                                    href="https://github.com/Otaviosoaresf/CafeteriaSerenatto"> GitHub </a>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="./Assets/Carrossel_front/Projeto_vidflow.png" class="d-block w-100 carrossel_imagem"
+                            alt="...">
+                        <div class="carousel-caption d-none d-md-block bg-preto rounded-5 px-3">
+                            <h5 class="banner-titulo fs-2">VidFlow</h5>
+                            <p class="fs-4">Plataforma de videos de tecnologia.</p>
+                            <p class="fs-4">Tecnologias usadas: <strong>HTML</strong>, <strong>CSS</strong> e
+                                <strong>JavaScript</strong>. Este projeto utiliza uma API, siga as instruções do arquivo
+                                README do github.
+                            </p>
+                            <div class="d-flex justify-content-between d-block">
+                                <button type="button" class="btn btn-primary bg-azul"><a
+                                        class="text-decoration-none btn-padrao fs-4 rounded-3 fw-bold"
+                                        href="https://vid-flow-sepia.vercel.app/">Website</a>
+                                </button>
+                                <button type="button" class="btn btn-primary bg-azul"><a
+                                        class="text-decoration-none btn-padrao fs-4 rounded-3 fw-bold"
+                                        href="https://github.com/Otaviosoaresf/VidFlow"> GitHub </a>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="carousel-caption d-block d-md-none banner-texto rounded-5">
+                            <button type="button" class="btn btn-primary bg-azul btn-sm"><a
+                                    class="text-decoration-none btn-padrao fs-6 rounded-3 fw-bold"
+                                    href="https://vid-flow-sepia.vercel.app/">Website</a>
+                            </button>
+                            <button type="button" class="btn btn-primary bg-azul btn-sm"><a
+                                    class="text-decoration-none btn-padrao fs-6 rounded-3 fw-bold"
+                                    href="https://github.com/Otaviosoaresf/VidFlow"> GitHub </a>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="./Assets/Carrossel_front/Portfolio_1.0.png" class="d-block w-100 carrossel_imagem"
+                            alt="...">
+                        <div class="carousel-caption d-none d-md-block bg-preto rounded-5 px-3">
+                            <h5 class="banner-titulo fs-2">Portfolio 1.0</h5>
+                            <p class="fs-4">Primeiro modelo de portifolio que criei</p>
+                            <p class="fs-4">Tecnologias usadas: <strong>HTML</strong>, <strong>CSS</strong> e
+                                <strong>JavaScript</strong>
+                            </p>
+                            <div class="d-flex justify-content-between d-block">
+                                <button type="button" class="btn btn-primary bg-azul"><a
+                                        class="text-decoration-none btn-padrao fs-4 rounded-3 fw-bold"
+                                        href="https://portfolio-ten-steel-82.vercel.app/">Website</a>
+                                </button>
+                                <button type="button" class="btn btn-primary bg-azul"><a
+                                        class="text-decoration-none btn-padrao fs-4 rounded-3 fw-bold"
+                                        href="https://github.com/Otaviosoaresf/Portfolio"> GitHub </a>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="carousel-caption d-block d-md-none banner-texto rounded-5">
+                            <button type="button" class="btn btn-primary bg-azul btn-sm"><a
+                                    class="text-decoration-none btn-padrao fs-6 rounded-3 fw-bold"
+                                    href="https://portfolio-ten-steel-82.vercel.app/">Website</a>
+                            </button>
+                            <button type="button" class="btn btn-primary bg-azul btn-sm"><a
+                                    class="text-decoration-none btn-padrao fs-6 rounded-3 fw-bold"
+                                    href="https://github.com/Otaviosoaresf/Portfolio"> GitHub </a>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="./Assets/Carrossel_front/Projeto_fokus.png" class="d-block w-100 carrossel_imagem"
+                            alt="...">
+                        <div class="carousel-caption d-none d-md-block bg-preto rounded-5 px-3">
+                            <h5 class="banner-titulo fs-2">Fokus</h5>
+                            <p class="fs-4">Site gerenciador de tarefas do dia</p>
+                            <p class="fs-4">Tecnologias usadas: <strong>HTML</strong>, <strong>CSS</strong> e
+                                <strong>JavaScript</strong>
+                            </p>
+                            <div class="d-flex justify-content-between d-block">
+                                <button type="button" class="btn btn-primary bg-azul"><a
+                                        class="text-decoration-none btn-padrao fs-4 rounded-3 fw-bold"
+                                        href="https://projeto-fokus-lemon.vercel.app/">Website</a>
+                                </button>
+                                <button type="button" class="btn btn-primary bg-azul"><a
+                                        class="text-decoration-none btn-padrao fs-4 rounded-3 fw-bold"
+                                        href="https://github.com/Otaviosoaresf/Projeto-Fokus"> GitHub </a>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="carousel-caption d-block d-md-none banner-texto rounded-5">
+                            <button type="button" class="btn btn-primary bg-azul btn-sm"><a
+                                    class="text-decoration-none btn-padrao fs-6 rounded-3 fw-bold"
+                                    href="https://projeto-fokus-lemon.vercel.app/">Website</a>
+                            </button>
+                            <button type="button" class="btn btn-primary bg-azul btn-sm"><a
+                                    class="text-decoration-none btn-padrao fs-6 rounded-3 fw-bold"
+                                    href="https://github.com/Otaviosoaresf/Projeto-Fokus"> GitHub </a>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="./Assets/Carrossel_front/Alurabooks_2.0.png" class="d-block w-100 carrossel_imagem"
+                            alt="...">
+                        <div class="carousel-caption d-none d-md-block bg-preto rounded-5 px-3">
+                            <h5 class="banner-titulo fs-2">Alura Books 2.0</h5>
+                            <p class="fs-4">Site de comercio de livros da Alura</p>
+                            <p class="fs-4">Tecnologias usadas: <strong>HTML</strong>, <strong>CSS</strong> e
+                                <strong>JavaScript</strong>
+                            </p>
+                            <div class="d-flex justify-content-between d-block">
+                                <button type="button" class="btn btn-primary bg-azul"><a
+                                        class="text-decoration-none btn-padrao fs-4 rounded-3 fw-bold"
+                                        href="https://alura-books-api-six.vercel.app/">Website</a>
+                                </button>
+                                <button type="button" class="btn btn-primary bg-azul"><a
+                                        class="text-decoration-none btn-padrao fs-4 rounded-3 fw-bold"
+                                        href="https://github.com/Otaviosoaresf/Alura-Books-API"> GitHub </a>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="carousel-caption d-block d-md-none banner-texto rounded-5">
+                            <button type="button" class="btn btn-primary bg-azul btn-sm"><a
+                                    class="text-decoration-none btn-padrao fs-6 rounded-3 fw-bold"
+                                    href="https://alura-books-api-six.vercel.app/">Website</a>
+                            </button>
+                            <button type="button" class="btn btn-primary bg-azul btn-sm"><a
+                                    class="text-decoration-none btn-padrao fs-6 rounded-3 fw-bold"
+                                    href="https://github.com/Otaviosoaresf/Alura-Books-API"> GitHub </a>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="./Assets/Carrossel_front/AluraMidi.png" class="d-block w-100 carrossel_imagem"
+                            alt="...">
+                        <div class="carousel-caption d-none d-md-block bg-preto rounded-5 px-3">
+                            <h5 class="banner-titulo fs-2">Alura Midi</h5>
+                            <p class="fs-4">Site que toca vários tons de uma bateria</p>
+                            <p class="fs-4">Tecnologias usadas: <strong>HTML</strong>, <strong>CSS</strong> e
+                                <strong>JavaScript</strong>
+                            </p>
+                            <div class="d-flex justify-content-between d-block">
+                                <button type="button" class="btn btn-primary bg-azul"><a
+                                        class="text-decoration-none btn-padrao fs-4 rounded-3 fw-bold"
+                                        href="https://alura-midi-three-orcin.vercel.app/">Website</a>
+                                </button>
+                                <button type="button" class="btn btn-primary bg-azul"><a
+                                        class="text-decoration-none btn-padrao fs-4 rounded-3 fw-bold"
+                                        href="https://github.com/Otaviosoaresf/AluraMidi"> GitHub </a>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="carousel-caption d-block d-md-none banner-texto rounded-5">
+                            <button type="button" class="btn btn-primary bg-azul btn-sm"><a
+                                    class="text-decoration-none btn-padrao fs-6 rounded-3 fw-bold"
+                                    href="https://alura-midi-three-orcin.vercel.app/">Website</a>
+                            </button>
+                            <button type="button" class="btn btn-primary bg-azul btn-sm"><a
+                                    class="text-decoration-none btn-padrao fs-6 rounded-3 fw-bold"
+                                    href="https://github.com/Otaviosoaresf/AluraMidi"> GitHub </a>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="./Assets/Carrossel_front/Jogonumerosecreto.png" class="d-block w-100 carrossel_imagem"
+                            alt="...">
+                        <div class="carousel-caption d-none d-md-block bg-preto rounded-5 px-3">
+                            <h5 class="banner-titulo fs-2">Jogo Número Secreto</h5>
+                            <p class="fs-4">Jogo que utiliza o seu microfone para captar os palpites da adivinhação.</p>
+                            <p class="fs-4">Tecnologias usadas: <strong>HTML</strong>, <strong>CSS</strong> e
+                                <strong>JavaScript</strong>
+                            </p>
+                            <div class="d-flex justify-content-between d-block">
+                                <button type="button" class="btn btn-primary bg-azul"><a
+                                        class="text-decoration-none btn-padrao fs-4 rounded-3 fw-bold"
+                                        href="https://jogo-numero-secreto-seven-lemon.vercel.app/">Website</a>
+                                </button>
+                                <button type="button" class="btn btn-primary bg-azul"><a
+                                        class="text-decoration-none btn-padrao fs-4 rounded-3 fw-bold"
+                                        href="https://github.com/Otaviosoaresf/Jogo-Numero-Secreto"> GitHub </a>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="carousel-caption d-block d-md-none banner-texto rounded-5">
+                            <button type="button" class="btn btn-primary bg-azul btn-sm"><a
+                                    class="text-decoration-none btn-padrao fs-6 rounded-3 fw-bold"
+                                    href="https://jogo-numero-secreto-seven-lemon.vercel.app/">Website</a>
+                            </button>
+                            <button type="button" class="btn btn-primary bg-azul btn-sm"><a
+                                    class="text-decoration-none btn-padrao fs-6 rounded-3 fw-bold"
+                                    href="https://github.com/Otaviosoaresf/Jogo-Numero-Secreto"> GitHub </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carrossel_front_end"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carrossel_front_end"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+            <div class="banner-texto py-3 text-center">
+                <p class="text-bg-dark fs-1 fw-bold mt-5">Csharp</p>
+            </div>
+
+            <!-- carrossel Csharp -->
+            <div id="carrossel_Csharp" class="carousel slide borda">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carrossel_Csharp" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carrossel_Csharp" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carrossel_Csharp" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carrossel_Csharp" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                        <img src="./Assets/Carrossel_Csharp/HotelManager.png" class="d-block w-100 carrossel_imagem"
+                            alt="...">
+                        <div class="carousel-caption d-none d-md-block bg-preto rounded-5 px-3">
+                            <h5 class="banner-titulo fs-2">Hotel Manager</h5>
+                            <p class="fs-4">Sistema gerenciador de reservas de um hotel.</p>
+                            <p class="fs-4">Tecnologias usadas: <strong>Csharp</strong>
+                            </p>
+                            <div class="d-flex justify-content-center d-block">
+                                <button type="button" class="btn btn-primary bg-azul"><a
+                                        class="text-decoration-none btn-padrao fs-4 rounded-3 fw-bold"
+                                        href="https://github.com/Otaviosoaresf/HotelManager">GitHub</a>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="carousel-caption d-block d-md-none banner-texto rounded-5">
+                            <button type="button" class="btn btn-primary bg-azul btn-sm"><a
+                                    class="text-decoration-none btn-padrao fs-6 rounded-3 fw-bold"
+                                    href="https://github.com/Otaviosoaresf/HotelManager"> GitHub </a>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="./Assets/Carrossel_Csharp/Screensound.png" class="d-block w-100 carrossel_imagem"
+                            alt="...">
+                        <div class="carousel-caption d-none d-md-block bg-preto rounded-5 px-3">
+                            <h5 class="banner-titulo fs-2">ScreenSound</h5>
+                            <p class="fs-4">Sistema de avaliação de bandas e albums musicais.</p>
+                            <p class="fs-4">Tecnologias usadas: <strong>Csharp</strong>
+                            </p>
+                            <div class="d-flex justify-content-center d-block">
+                                <button type="button" class="btn btn-primary bg-azul"><a
+                                        class="text-decoration-none btn-padrao fs-4 rounded-3 fw-bold"
+                                        href="https://github.com/Otaviosoaresf/Projeto_ScreenSound"> GitHub </a>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="carousel-caption d-block d-md-none banner-texto rounded-5">
+                            <button type="button" class="btn btn-primary bg-azul btn-sm"><a
+                                    class="text-decoration-none btn-padrao fs-6 rounded-3 fw-bold"
+                                    href="https://github.com/Otaviosoaresf/Projeto_ScreenSound"> GitHub </a>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./Assets/Carrossel_Csharp/loginDesktopTopay.png"
+                            class="d-block w-100 carrossel_imagem" alt="...">
+                        <div class="carousel-caption d-none d-md-block bg-preto rounded-5 px-3">
+                            <h5 class="banner-titulo fs-2">Login TopayRh desktop</h5>
+                            <p class="fs-4">Login do sistema desktop criado para TopayRH, desenvolvido no último
+                                semestre da faculdade</p>
+                            <p class="fs-4">Tecnologias usadas: <strong>Csharp</strong>
+                            </p>
+                            <div class="d-flex justify-content-center d-block">
+                                <button type="button" class="btn btn-primary bg-azul"><a
+                                        class="text-decoration-none btn-padrao fs-4 rounded-3 fw-bold"
+                                        href="https://github.com/Otaviosoaresf/Projeto_Login_TopayRH"> GitHub </a>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="carousel-caption d-block d-md-none banner-texto rounded-5">
+                            <button type="button" class="btn btn-primary bg-azul btn-sm"><a
+                                    class="text-decoration-none btn-padrao fs-6 rounded-3 fw-bold"
+                                    href="https://github.com/Otaviosoaresf/Projeto_Login_TopayRH"> GitHub </a>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="./Assets/Carrossel_Csharp/numerosecreto.png" class="d-block w-100 carrossel_imagem"
+                            alt="...">
+                        <div class="carousel-caption d-none d-md-block bg-preto rounded-5 px-3">
+                            <h5 class="banner-titulo fs-2">Jogo Número Secreto</h5>
+                            <p class="fs-4">Sistema gera um número randômico e a cada palpite errado, informa dicas.</p>
+                            <p class="fs-4">Tecnologias usadas: <strong>Csharp</strong>
+                            </p>
+                            <div class="d-flex justify-content-center d-block">
+                                <button type="button" class="btn btn-primary bg-azul"><a
+                                        class="text-decoration-none btn-padrao fs-4 rounded-3 fw-bold"
+                                        href="https://github.com/Otaviosoaresf/Jogo_Numero_Secreto"> GitHub </a>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="carousel-caption d-block d-md-none banner-texto rounded-5">
+                            <button type="button" class="btn btn-primary bg-azul btn-sm"><a
+                                    class="text-decoration-none btn-padrao fs-6 rounded-3 fw-bold"
+                                    href="https://github.com/Otaviosoaresf/Jogo_Numero_Secreto"> GitHub </a>
+                            </button>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carrossel_Csharp"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carrossel_Csharp"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+        </section>
+
+        <!-- Seção: Banner minhas redes -->
+        <section id="minhas-redes" class="banner banner2 d-flex justify-content-center text-center my-5">
+            <div class="banner-texto w-100">
+                <h2 class="banner-titulo fs-1 fw-bold py-5 my-2">Minhas Redes</h2>
+                <div class="d-flex flex-column align-items-center flex-md-row justify-content-md-between">
+                    <div class="py-2 col-4">
+                        <div><a href="https://www.linkedin.com/in/ot%C3%A1vio-soares-felicio-b69929245/"><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor"
+                                    class="icone-medio cinza-claro bi bi-linkedin" viewBox="0 0 16 16">
+                                    <path
+                                        d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                                </svg></a></div>
+                        <p class="text-bg-dark fs-5">/Otavio-Soares-Felicio</p>
+                    </div>
+                    <div class="py-2 col-4">
+                        <div><a href="https://github.com/Otaviosoaresf"><svg xmlns="http://www.w3.org/2000/svg"
+                                    width="35" height="35" fill="currentColor"
+                                    class="icone-medio cinza-claro bi bi-github" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+                                </svg></a></div>
+                        <p class="text-bg-dark fs-5">/Otaviosoaresf</p>
+                    </div>
+                    <div class="py-2 col-4">
+                        <div><a href="https://www.instagram.com/otavio_soaresf/"><svg xmlns="http://www.w3.org/2000/svg"
+                                    width="35" height="35" fill="currentColor"
+                                    class=" icone-medio cinza-claro bi bi-instagram" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                                </svg></a></div>
+                        <p class="text-bg-dark fs-5">/otavio_soaresf</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção: Certificados de cursos -->
+        <section class="container my-5">
+
+
+            <h2 class="banner-texto py-3 text-center banner-titulo fw-bold fs-1">Certificados de cursos</h2>
+
+            <div class="container d-flex flex-wrap justify-content-around">
+                <div class="card my-5 col-12 col-md-6 col-xl-4" style="width: 18rem;">
+                    <img src="./Assets/Cards_certificados/Formacao_Bootstrap.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="banner-titulo card-title fw-bold">Formação Bootstrap</h5>
+                        <p class="card-text">Formação de um total de 2 cursos sobre bootstrap feito na alura. Total de
+                            horas: 15 horas</p>
+                        <a href="https://cursos.alura.com.br/degree/certificate/5fd9993b-56fa-4ca6-b833-6b8345bebcf5?lang=pt_BR"
+                            class="btn bg-azul btn-primary">Link Certificado</a>
+                    </div>
+                </div>
+                <div class="card my-5 col-12 col-md-6 col-xl-4" style="width: 18rem;">
+                    <img src="./Assets/Cards_certificados/Certificado_AspNet.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="banner-titulo card-title fw-bold">Formação ASP.NET</h5>
+                        <p class="card-text">Formação de um total de 4 cursos sobre ASP.NET e protocolo HTTP feito na
+                            alura. Total de
+                            horas: 37 horas</p>
+                        <a href="https://cursos.alura.com.br/degree/certificate/aec26782-0a6f-4ac3-9c43-da050817b41a?lang=pt_BR"
+                            class="btn bg-azul btn-primary">Link Certificado</a>
+                    </div>
+                </div>
+                <div class="card my-5 col-12 col-md-6 col-xl-4" style="width: 18rem;">
+                    <img src="./Assets/Cards_certificados/Certificado_JavaScriptWeb.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="banner-titulo card-title fw-bold">Formação JavaScript Web</h5>
+                        <p class="card-text">Formação de um total de 8 cursos sobre JS para web feito na alura. Total de
+                            horas: 63 horas</p>
+                        <a href="https://cursos.alura.com.br/degree/certificate/04ce7c85-a510-4082-b841-38f0d4a6f6f5?lang=pt_BR"
+                            class="btn bg-azul btn-primary">Link Certificado</a>
+                    </div>
+                </div>
+                <div class="card my-5 col-12 col-md-6 col-xl-4" style="width: 18rem;">
+                    <img src="./Assets/Cards_certificados/Certificado_Csharp_POO.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="banner-titulo card-title fw-bold">Formação Csharp - POO</h5>
+                        <p class="card-text">Formação de um total de 4 cursos sobre programação orientada a objetos com
+                            C#, feito na alura. Total de
+                            horas: 32 horas</p>
+                        <a href="https://cursos.alura.com.br/degree/certificate/5fd9993b-56fa-4ca6-b833-6b8345bebcf5?lang=pt_BR"
+                            class="btn bg-azul btn-primary">Link Certificado</a>
+                    </div>
+                </div>
+                <div class="card my-5 col-12 col-md-6 col-xl-4" style="width: 18rem;">
+                    <img src="./Assets/Cards_certificados/Certificado_HTML_CSS.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="banner-titulo card-title fw-bold">Formação HTML e CSS</h5>
+                        <p class="card-text">Formação de um total de 6 cursos sobre HTML e CSS feito na alura. Total de
+                            horas: 53 horas</p>
+                        <a href="https://cursos.alura.com.br/degree/certificate/55582a69-6736-4352-9458-5c7ddbbe86f2?lang=pt_BR"
+                            class="btn bg-azul btn-primary">Link Certificado</a>
+                    </div>
+                </div>
+                <div class="card my-5 col-12 col-md-6 col-xl-4" style="width: 18rem;">
+                    <img src="./Assets/Cards_certificados/Certificado_SQL_udemy.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="banner-titulo card-title fw-bold">Curso Banco de dados SQL</h5>
+                        <p class="card-text">Cursos sobre banco de dados SQL feito na Udemy. Total de
+                            horas: 8 horas</p>
+                        <a href="https://www.udemy.com/certificate/UC-40841921-2d31-4019-a55b-428e7890d44c/"
+                            class="btn bg-azul btn-primary">Link Certificado</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Rodapé: Contato -->
+        <footer id="contato" class="banner3 banner d-flex justify-content-center text-center">
+            <div class="banner-texto w-100">
+                <h2 class="banner-titulo fs-1 fw-bold py-2">Contato</h2>
+                <div class="d-flex justify-content-around">
+                    <div>
+                        <div><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor"
+                                class="cinza-claro bi bi-envelope-at-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M2 2A2 2 0 0 0 .05 3.555L8 8.414l7.95-4.859A2 2 0 0 0 14 2zm-2 9.8V4.698l5.803 3.546zm6.761-2.97-6.57 4.026A2 2 0 0 0 2 14h6.256A4.5 4.5 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586zM16 9.671V4.697l-5.803 3.546.338.208A4.5 4.5 0 0 1 12.5 8c1.414 0 2.675.652 3.5 1.671" />
+                                <path
+                                    d="M15.834 12.244c0 1.168-.577 2.025-1.587 2.025-.503 0-1.002-.228-1.12-.648h-.043c-.118.416-.543.643-1.015.643-.77 0-1.259-.542-1.259-1.434v-.529c0-.844.481-1.4 1.26-1.4.585 0 .87.333.953.63h.03v-.568h.905v2.19c0 .272.18.42.411.42.315 0 .639-.415.639-1.39v-.118c0-1.277-.95-2.326-2.484-2.326h-.04c-1.582 0-2.64 1.067-2.64 2.724v.157c0 1.867 1.237 2.654 2.57 2.654h.045c.507 0 .935-.07 1.18-.18v.731c-.219.1-.643.175-1.237.175h-.044C10.438 16 9 14.82 9 12.646v-.214C9 10.36 10.421 9 12.485 9h.035c2.12 0 3.314 1.43 3.314 3.034zm-4.04.21v.227c0 .586.227.8.581.8.31 0 .564-.17.564-.743v-.367c0-.516-.275-.708-.572-.708-.346 0-.573.245-.573.791" />
+                            </svg>
+                            <p class="text-bg-dark fs-5">otvio2018@outlook.com</p>
+                        </div>
+                    </div>
+                    <div class="banner-texto">
+                        <div><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor"
+                                class="cinza-claro bi bi-whatsapp" viewBox="0 0 16 16">
+                                <path
+                                    d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+                            </svg>
+                            <p class="text-bg-dark fs-5">(11) 94675-6821</p>
+                        </div>
+                    </div>
+                </div>
+                <a href="#"><img class="logotipo-portfolio mt-5"
+                        src="./Assets/Logotipo_portifolio_navbar-removebg-preview.png"></img></a>
+            </div>
+        </footer>
+    </main>
+
+    <!-- Modal: Sobre mim -->
+    <div class="modal fade" id="Modal_SobreMim" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content bg-cinza">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5 modal_titulo fw-bold" id="exampleModalLabel">Sobre Otavio Soares...</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex flex-column align-items-center justify-content-center">
+                    <img class="w-50 pb-5" src="./Assets/FotoOtavioPerfil-removebg-preview.png">
+                    <p>Olá, me chamo Otávio Soares Felicio, tenho 26 anos atualmente e moro em Osasco/SP. Estou no
+                        momento em fase de transição de carreira, saindo da área de vendas e procurando a primeira
+                        oportunidade na área de TI, a qual estudo já vai fazer 2 anos. Iniciei meus estudos em janeiro
+                        de 2022 começando meu curso de Análise e desenvolvimento de sistemas pela UNIP, curso esse que
+                        já concluí e me formei agora em Janeiro de 2024.</p>
+
+                        <p>Anteriormente em minha trajetória profissional eu tinha trabalhado com logística, uma área que
+                        me gerou muito aprendizado principalmente a trabalhar sobre extrema pressão e entrega imediata
+                        de resultados diariamente, algo que me gerou uma resiliência muito grande no ambiente
+                        profissional. Além também de desenvolver ainda mais o raciocínio lógico, pois em um ambiente
+                        logístico temos que fazer o maximo possível com o mínimo possível e isso estimula nossa
+                        capacidade de tomada de decisão de maneira rápida e precisa. Depois dessa experiência na área
+                        logística fui para a área de vendas, onde passei 3 anos com a missão de aumentar as vendas da
+                        empresa com um tipo de cliente diferente do que estavam mais acostumados, além de procurar
+                        estratégias novas de divulgação para novos clientes. Trabalhar com vendas me fez desenvolver
+                        ainda mais minhas capacidades de comunicação e controle emocional no ambiente de trabalho,
+                        quando você vende você tem que aprender a lidar com todo tipo de pessoa e personalidade, além de
+                        não só aprender a atender, como também aprender a persuadi-los e entender que cada pessoa pode
+                        ser uma estratégia e abordagem diferente.</p>
+
+                        <p>Mas nenhuma dessas áreas ao qual ja tinha trabalhado anteriormente eu sentia que seria a área
+                        que eu escolheria para trabalhar até o fim da minha carreira. Foi quando descobri o ramo de
+                        tecnologia através da indicação de um amigo, que me indicou o curso de ADS para fazer e
+                        experimentar. E foi amor a primeira vista, decidi logo no primeiro semestre que essa é a área ao
+                        qual fui feito para estar e estou aqui trabalhando para conseguir ingressar nesse mercado e
+                        poder construir minha nova carreira.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn bg-azul btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
